@@ -1,0 +1,45 @@
+/** @format */
+
+.chatFooter {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 15px;
+}
+.chatFooter svg {
+	cursor: pointer;
+	color: #444;
+}
+.chatFooter form {
+	flex: 1;
+	padding: 0 15px;
+	display: flex;
+	align-items: center;
+}
+.chatFooter form input {
+	display: block;
+	flex: 1;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	background-color: #fff;
+	border-radius: 25px;
+	margin-right: 10px;
+	font-size: 1rem;
+}
+.chatFooter form button {
+	border: none;
+	cursor: pointer;
+	font-size: 1.1rem;
+	color: rgb(7, 207, 100);
+}
+.chatFooter form button svg {
+	transition: all 0.4s ease;
+	font-size: 2rem;
+}
+.chatFooter form button svg:hover {
+	color: rgb(7, 207, 100);
+}
+.chatFooter form button:disabled {
+	cursor: not-allowed !important;
+}

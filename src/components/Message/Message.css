@@ -1,0 +1,28 @@
+/** @format */
+
+.message__text {
+	background-color: #fff;
+	padding: 8px 18px;
+	border-radius: 10px;
+	margin-bottom: 14px;
+	display: inline-block;
+}
+.message__name {
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+.message__text small {
+	margin-left: 8px;
+	font-size: 14px;
+}
+.message__text .text {
+	font-size: 18px;
+	font-weight: 600;
+}
+.message__receiver {
+	display: flex;
+	justify-content: flex-end;
+}
+.message__receiver .message__text {
+	background-color: #dcf9c6;
+}
